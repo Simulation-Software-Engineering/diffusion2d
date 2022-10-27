@@ -1,11 +1,14 @@
 import matplotlib.pyplot as plt
 
-def create_plot(fig, u, T_cold, T_hot, n, dt):
+
+def create_plot(fig_counter, fig, im, u, T_cold, T_hot, n, dt):
     fig_counter += 1
     ax = fig.add_subplot(220 + fig_counter)
-    im = ax.imshow(u.copy(), cmap=plt.get_cmap('hot'), vmin=T_cold, vmax=T_hot)
+    im = ax.imshow(u.copy(), cmap=plt.get_cmap('hot'),
+                   vmin=T_cold, vmax=T_hot)  # image for color bar axes
     ax.set_axis_off()
-    ax.set_title('{:.1f} ms'.format(n*dt*1000))
+    ax.set_title('{:.1f} ms'.format(n * dt * 1000))
+    return fig_counter, im
 
 
 def output_plots(fig, im):
