@@ -7,6 +7,8 @@ Example acquired from https://scipython.com/book/chapter-7-matplotlib/examples/t
 import numpy as np
 import matplotlib.pyplot as plt
 
+from output import create_plot, output_plot
+
 # plate size, mm
 w = h = 10.
 # intervals in x-, y- directions, mm
@@ -59,21 +61,12 @@ n_output = [0, 10, 50, 100]
 fig_counter = 0
 fig = plt.figure()
 
+im = None
 # Time loop
 for n in range(nsteps):
     u0, u = do_timestep(u0, u, D, dt, dx2, dy2)
+    im, fig_counter = create_plot(n, n_output, fig_counter, fig, im, u, plt, T_cold, T_hot, dt)
 
-    # Create figure
-    if n in n_output:
-        fig_counter += 1
-        ax = fig.add_subplot(220 + fig_counter)
-        im = ax.imshow(u.copy(), cmap=plt.get_cmap('hot'), vmin=T_cold, vmax=T_hot)  # image for color bar axes
-        ax.set_axis_off()
-        ax.set_title('{:.1f} ms'.format(n * dt * 1000))
 
 # Plot output figures
-fig.subplots_adjust(right=0.85)
-cbar_ax = fig.add_axes([0.9, 0.15, 0.03, 0.7])
-cbar_ax.set_xlabel('$T$ / K', labelpad=20)
-fig.colorbar(im, cax=cbar_ax)
-plt.show()
+output_plot(fig, im, plt)
