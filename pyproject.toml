@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "weinhovt-diffusion2d"
+author= "Vincent Weinhold"
+description = "A small description"
+readme = "README.md"
+version = "0.0.1"
+requires-python = ">=3.6"
+keywords = ["keyword1", "keyword2"]
+license = {text = "BSD License"}
+dependencies = ["matplotlib", "numpy"]
+url = "https://github.com/Simulation-Software-Engineering/diffusion2d.git"
