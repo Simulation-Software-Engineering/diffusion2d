@@ -1,0 +1,16 @@
+dist/imhoffns-diffusion2d-0.0.1.tar.gz
+diffusion2d/__pycache__/__init__.cpython-310.pyc
+diffusion2d/output/__pycache__/__init__.cpython-310.pyc
+diffusion2d/output/__pycache__/output.cpython-310.pyc
+diffusion2d.egg-info/dependency_links.txt
+diffusion2d.egg-info/PKG-INFO
+diffusion2d.egg-info/SOURCES.txt
+diffusion2d.egg-info/top_level.txt
+imhoffns_diffusion2d.egg-info/dependency_links.txt
+imhoffns_diffusion2d.egg-info/PKG-INFO
+imhoffns_diffusion2d.egg-info/SOURCES.txt
+imhoffns_diffusion2d.egg-info/top_level.txt
+imhoffnsdiffusion2d.egg-info/dependency_links.txt
+imhoffnsdiffusion2d.egg-info/PKG-INFO
+imhoffnsdiffusion2d.egg-info/SOURCES.txt
+imhoffnsdiffusion2d.egg-info/top_level.txt
