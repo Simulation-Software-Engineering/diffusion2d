@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "erwerljs-diffusion2D"
+description = "Solves the diffusion equation with finite differences."
+readme = "README.md"
+version = "0.0.3"
+requires-python = ">=3.6"
+keywords = ["diffusion", "finite difference"]
+license = {text = "BSD License"}
+dependencies = ["numpy", "matplotlib"]
