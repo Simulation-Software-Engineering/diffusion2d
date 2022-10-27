@@ -9,6 +9,16 @@ The code used in this exercise is based on [Chapter 7 of the book "Learning Scie
 ## Project description
 
 ## Installing the package
+- An operating system / software / environment where you can install Python and some basic Python tools
+- An editor or IDE to edit Python code and write text files
+- The following Python tools:
+    - Python (version >= 3)
+    - [pip](https://pypi.org/project/pip/)
+    - [NumPy](https://numpy.org/)
+    - [Matplotlib](https://matplotlib.org/)
+    - [build](https://pypa-build.readthedocs.io/en/latest/)
+    - [Twine](https://twine.readthedocs.io/en/latest/)
+
 
 ### Using pip3 to install from PyPI
 
