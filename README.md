@@ -15,11 +15,22 @@ initial conditions of the system can be changed by the user.
 The code produces four plots at various timepoints of the simulation. 
 The diffusion process can be clearly observed in these plots.
 ## Installing the package
-
+The package is available on TestPyPI.
 ### Using pip3 to install from PyPI
-
+Run the following command in a shell (e.g. bash):
+```bash
+foo@bar:~$ pip install --user --index-url https://test.pypi.org/simple/ weinhovt-diffustion2d
+```
 ### Required dependencies
 This package requires matplotlib and numpy to function.
 ## Running this package
+For running the package import it in a python script or python console
+and run the solve function as shown:
+```python
+from weinhovt-diffusion2d import diffusion2d
 
+diffusion2d.solve()
+```
 ## Citing
+The code used for the diffusion solver and plotting the simulation steps was acquired from:
+[https://scipython.com/book/chapter-7-matplotlib/examples/the-two-dimensional-diffusion-equation/](https://scipython.com/book/chapter-7-matplotlib/examples/the-two-dimensional-diffusion-equation/)
