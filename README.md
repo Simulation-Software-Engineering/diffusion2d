@@ -10,15 +10,21 @@ The code used in this exercise is based on [Chapter 7 of the book "Learning Scie
 This code solves the diffusion equation in 2D over a square domain which is at a certain temperature and a circular disc at the center which is at a higher temperature. This code solves the diffusion equation using the Finite Difference Method. The thermal diffusivity and initial conditions of the system can be changed by the user. The code produces four plots at various timepoints of the simulation. The diffusion process can be clearly observed in these plots.
 
 ## Installing the package
-pip install mananijh-diffusion2D
+pip install mananij-diffusion2D
 
 ### Using pip3 to install from PyPI
-pip3 install mananijh-siffusion2D
+pip3 install mananij-siffusion2D
+
 ### Required dependencies
 numpy==1.21.6
 matplotlib==3.5.3
+
 ## Running this package
-import mananijh-diffusion2D as mjd
-mjd.solve()
+from mananij_diffusion2D import diffusion2D
+diffusion2D.solve()
 
 ## Citing
+Link to the Python Package - https://test.pypi.org/project/mananij-diffusion2D/
+
+## How to install the test Package from test.pypi 
+pip install --extra-index-url https://test.pypi.org/simple/ mananij_diffusion2D==0.0.3
