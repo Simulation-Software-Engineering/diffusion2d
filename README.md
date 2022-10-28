@@ -12,8 +12,16 @@ This code solves the diffusion equation in 2D over a square domain which is at a
 ## Installing the package
 pip install mananij-diffusion2D
 
+to install the package from test pypi - 
+
+pip install --extra-index-url https://test.pypi.org/simple/ mananij_diffusion2D==0.0.4
+
 ### Using pip3 to install from PyPI
 pip3 install mananij-siffusion2D
+
+to install the package from test pypi using pip3
+
+pip install --extra-index-url https://test.pypi.org/simple/ mananij_diffusion2D==0.0.4
 
 ### Required dependencies
 numpy==1.21.6
@@ -21,10 +29,12 @@ matplotlib==3.5.3
 
 ## Running this package
 from mananij_diffusion2D import diffusion2D
+
 diffusion2D.solve()
+
+you can also pass the argument to solve,
+
+diffusion2D.solve(dx = 0.1, dy = 0.1, D = 4)
 
 ## Citing
 Link to the Python Package - https://test.pypi.org/project/mananij-diffusion2D/
-
-## How to install the test Package from test.pypi 
-pip install --extra-index-url https://test.pypi.org/simple/ mananij_diffusion2D==0.0.4
