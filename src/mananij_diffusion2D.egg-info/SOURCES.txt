@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/mananij_diffusion2D/__init__.py
+src/mananij_diffusion2D/diffusion2d.py
+src/mananij_diffusion2D/output.py
+src/mananij_diffusion2D.egg-info/PKG-INFO
+src/mananij_diffusion2D.egg-info/SOURCES.txt
+src/mananij_diffusion2D.egg-info/dependency_links.txt
+src/mananij_diffusion2D.egg-info/not-zip-safe
+src/mananij_diffusion2D.egg-info/requires.txt
+src/mananij_diffusion2D.egg-info/top_level.txt

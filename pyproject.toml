@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mananij_diffusion2D"
+description = "This code solves the diffusion equation using the Finite Difference Method."
+authors = [
+  { name="Jayesh Manani", email="jsmanani@gmail.com" },
+]
+readme = "README.md"
+version = "0.0.3"
+requires-python = ">=3.6"
+keywords = ["diffusion", "finite difference method"]
+license = {text = "BSD License"}
+dependencies = ["numpy", "matplotlib"]
+

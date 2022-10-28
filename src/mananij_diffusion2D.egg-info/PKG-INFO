@@ -1,3 +1,16 @@
+Metadata-Version: 2.1
+Name: mananij-diffusion2D
+Version: 0.0.3
+Summary: This code solves the diffusion equation using the Finite Difference Method.
+Home-page: https://github.com/Simulation-Software-Engineering/diffusion2d
+Author: Jayesh Manani
+Author-email: Jayesh Manani <jsmanani@gmail.com>
+License: BSD License
+Keywords: diffusion,finite difference method
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # Diffusion2D-Python-Package
 
 ## Instructions for students
