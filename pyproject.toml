@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "schiztn_diffusion2D"
+description = "A small program solving the tow-dimensional diffusion equation"
+readme = "README.md"
+version = "0.0.3"
+requires-python = ">=3.6"
+keywords = ["diffusion", "solver"]
+license = {text = "Creative Commons Attribution 4.0 International"}
+dependencies = ['numpy', 'matplotlib']
+
+[project.urls]
+homepage = "https://github.com/Simulation-Software-Engineering/diffusion2d"

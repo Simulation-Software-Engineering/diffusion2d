@@ -1,3 +1,14 @@
+Metadata-Version: 2.1
+Name: schiztn-diffusion2D
+Version: 0.0.3
+Summary: A small program solving the tow-dimensional diffusion equation
+License: Creative Commons Attribution 4.0 International
+Project-URL: homepage, https://github.com/Simulation-Software-Engineering/diffusion2d
+Keywords: diffusion,solver
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # Diffusion2D-Python-Package
 
 ## Instructions for students

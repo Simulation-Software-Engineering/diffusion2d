@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+schiztn_diffusion2D/__init__.py
+schiztn_diffusion2D/diffusion2d.py
+schiztn_diffusion2D/output.py
+schiztn_diffusion2D.egg-info/PKG-INFO
+schiztn_diffusion2D.egg-info/SOURCES.txt
+schiztn_diffusion2D.egg-info/dependency_links.txt
+schiztn_diffusion2D.egg-info/requires.txt
+schiztn_diffusion2D.egg-info/top_level.txt
