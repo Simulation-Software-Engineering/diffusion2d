@@ -9,7 +9,7 @@ authors = [
   { name="Jayesh Manani", email="jsmanani@gmail.com" },
 ]
 readme = "README.md"
-version = "0.0.3"
+version = "0.0.4"
 requires-python = ">=3.6"
 keywords = ["diffusion", "finite difference method"]
 license = {text = "BSD License"}

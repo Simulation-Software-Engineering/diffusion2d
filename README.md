@@ -27,4 +27,4 @@ diffusion2D.solve()
 Link to the Python Package - https://test.pypi.org/project/mananij-diffusion2D/
 
 ## How to install the test Package from test.pypi 
-pip install --extra-index-url https://test.pypi.org/simple/ mananij_diffusion2D==0.0.3
+pip install --extra-index-url https://test.pypi.org/simple/ mananij_diffusion2D==0.0.4

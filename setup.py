@@ -1,16 +1,12 @@
 from setuptools import setup
 import setuptools
-import pathlib
-
-here = pathlib.Path(__file__).parent.resolve()
-# long_description = (here / "README.md").read_text(encoding="utf-8")
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
     name="mananij_diffusion2D",
-    version="0.0.3",
+    version="0.0.4",
     author="Jayesh Manani",
     author_email='jsmanani@gmail.com',
     description="This code solves the diffusion equation using the Finite Difference Method.",
