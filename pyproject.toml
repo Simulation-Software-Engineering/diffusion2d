@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neumantm-diffusion2d"
+description = "Solver for the diffusion equation in 2D over a square domain."
+readme = "README.md"
+version = "0.0.1"
+requires-python = ">=3.6"
+keywords = ["diffusion", "simulation", "scientific"]
+license = {text = "CC-BY-4.0"}
+dependencies = ["matplotlib", "numpy"]
+
+[project.urls]
+homepage = "https://github.com/neumantm/SSE-diffusion2d"

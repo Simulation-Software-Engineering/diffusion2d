@@ -1,0 +1,8 @@
+# python artifacts
+
+dist
+*.egg-info
+
+# Saved images and screenshots
+
+*.png
