@@ -31,7 +31,7 @@ pip install -i https://test.pypi.org/simple/imhoffns-diffusions2d
 ## Running this package
 
 ```python
-from imhoffns-diffusion2D import diffusion2d
+from imhoffns-diffusion2d import diffusion2d
 
 diffusion2d.solve()
 ```
