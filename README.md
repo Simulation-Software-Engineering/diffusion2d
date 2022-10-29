@@ -27,7 +27,6 @@ pip install -i https://test.pypi.org/simple/imhoffns-diffusions2d
 - [build](https://pypa-build.readthedocs.io/en/latest/)
 - [Twine](https://twine.readthedocs.io/en/latest/)
 
-
 ## Running this package
 
 ```python
