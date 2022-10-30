@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "CongyPongyPack"
+description = "Gonc is love, Gonc is lief"
+readme = "README.md"
+version = "0.0.1"
+requires-python = ">=3.6"
+license = {text = "BSD License"}
+dependencies = []
