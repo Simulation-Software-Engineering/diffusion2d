@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+strackdiffusion2D/__init__.py
+strackdiffusion2D/diffusion2d.py
+strackdiffusion2D/output.py
+strackdiffusion2D.egg-info/PKG-INFO
+strackdiffusion2D.egg-info/SOURCES.txt
+strackdiffusion2D.egg-info/dependency_links.txt
+strackdiffusion2D.egg-info/requires.txt
+strackdiffusion2D.egg-info/top_level.txt
