@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "strackms-diffusion2D"
+description = "Package to solve the 2d-diffusion equation"
+readme = "README.md"
+version = "0.0.1"
+requires-python = ">=3.6"
+keywords = ["diffusion", "solver"]
+license = {text = "Creative Commons Attribution 4.0 International"}
+dependencies = [
+      'numpy',
+      #'matplotlib' (not available on test.pypi.org)
+]
