@@ -7,7 +7,7 @@ Example acquired from https://scipython.com/book/chapter-7-matplotlib/examples/t
 import numpy as np
 import matplotlib.pyplot as plt
 
-from output import create_plot, output_plots
+from .output import create_plot, output_plots
 
 def do_timestep(u_nm1, u, D, dt, dx2, dy2):
     # Propagate with forward-difference in time, central-difference in space
