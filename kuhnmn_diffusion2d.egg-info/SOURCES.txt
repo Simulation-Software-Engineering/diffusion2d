@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+kuhnmn_diffusion2d/__init__.py
+kuhnmn_diffusion2d/diffusion2d.py
+kuhnmn_diffusion2d/output.py
+kuhnmn_diffusion2d.egg-info/PKG-INFO
+kuhnmn_diffusion2d.egg-info/SOURCES.txt
+kuhnmn_diffusion2d.egg-info/dependency_links.txt
+kuhnmn_diffusion2d.egg-info/requires.txt
+kuhnmn_diffusion2d.egg-info/top_level.txt
