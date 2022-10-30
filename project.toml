@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ahmedmd_diffusion2D"
+description = "This package solves the diffusion equation using the Finite Difference Method."
+readme = "README.md"
+version = "0.0.4"
+requires-python = ">=3.6"
+keywords = ["diffsuin2d", "thermal diffusivity", "finite Difference method"]
+license = {text = "BSD License"}
+dependencies = ["numpy"]
+
+
+[project.urls]
+repository = "https://github.com/Simulation-Software-Engineering/diffusion2d"
