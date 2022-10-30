@@ -69,5 +69,3 @@ def solve(dx = 0.1, dy= 0.1, D = 4):
 
     # Plot output figures
     output_plots(fig, im)
-
-solve()

@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: strackms-diffusion2D
-Version: 0.0.3
+Version: 0.0.4
 Summary: Package to solve the 2d-diffusion equation
 License: Creative Commons Attribution 4.0 International
 Keywords: diffusion,solver
