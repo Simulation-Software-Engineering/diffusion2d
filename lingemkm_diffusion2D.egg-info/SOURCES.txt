@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+lingemkm_diffusion2D/__init__.py
+lingemkm_diffusion2D/diffusion2d.py
+lingemkm_diffusion2D/output.py
+lingemkm_diffusion2D.egg-info/PKG-INFO
+lingemkm_diffusion2D.egg-info/SOURCES.txt
+lingemkm_diffusion2D.egg-info/dependency_links.txt
+lingemkm_diffusion2D.egg-info/requires.txt
+lingemkm_diffusion2D.egg-info/top_level.txt

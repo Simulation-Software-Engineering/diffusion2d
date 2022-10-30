@@ -1,3 +1,14 @@
+Metadata-Version: 2.1
+Name: lingemkm-diffusion2D
+Version: 0.0.2
+Summary: This code solves the diffusion equation in 2D over a square domain using the Finite Difference Method.
+License: Creative Commons Attribution 4.0 International Public License
+Keywords: Finite Difference Method,diffusion equation in 2D,solving
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # Diffusion2D-Python-Package
 
 ## Instructions for students
