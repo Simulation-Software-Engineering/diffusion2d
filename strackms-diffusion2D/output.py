@@ -17,4 +17,3 @@ def output_plots(fig, im):
     cbar_ax.set_xlabel('$T$ / K', labelpad=20)
     fig.colorbar(im, cax=cbar_ax)
     plt.show()
-    plt.savefig('figures/diffusion2d.pdf')
