@@ -13,7 +13,7 @@ This code solves the diffusion equation in 2D over a square domain which is at a
 
 ### Using pip3 to install from PyPI
 ```
-pip3 install --user --index-url https://test.pypi.org/simple/ strackmsdiffusion2D
+pip3 install --user --index-url https://test.pypi.org/simple/ strackdiffusion2D
 ```
 ### Required dependencies
 -`numpy`
@@ -25,7 +25,7 @@ pip3 install matplotlib
 ```
 ## Running this package
 ```
-from strackmsdiffusion2D import diffusion2d
+from strackdiffusion2D import diffusion2d
 
 diffusion2d.solve()
 ```

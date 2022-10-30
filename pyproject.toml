@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "strackmsdiffusion2D"
+name = "strackdiffusion2D"
 description = "Package to solve the 2d-diffusion equation"
 readme = "README.md"
 version = "0.0.1"
