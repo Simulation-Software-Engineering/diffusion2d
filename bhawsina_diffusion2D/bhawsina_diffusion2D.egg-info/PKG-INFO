@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: bhawsina-diffusion2D
+Version: 0.0.2
+Summary: diffusion equation solver in 2D
+Home-page: https://github.com/Simulation-Software-Engineering/diffusion2d
+Author: Nistha Bhawsinka
+Requires-Python: >=3.6
+License-File: LICENSE

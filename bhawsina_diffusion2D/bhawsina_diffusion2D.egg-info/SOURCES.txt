@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bhawsina_diffusion2D/bhawsina_diffusion2D/__init__.py
+bhawsina_diffusion2D/bhawsina_diffusion2D/diffusion2d.py
+bhawsina_diffusion2D/bhawsina_diffusion2D/output.py
+bhawsina_diffusion2D/bhawsina_diffusion2D.egg-info/PKG-INFO
+bhawsina_diffusion2D/bhawsina_diffusion2D.egg-info/SOURCES.txt
+bhawsina_diffusion2D/bhawsina_diffusion2D.egg-info/dependency_links.txt
+bhawsina_diffusion2D/bhawsina_diffusion2D.egg-info/requires.txt
+bhawsina_diffusion2D/bhawsina_diffusion2D.egg-info/top_level.txt
