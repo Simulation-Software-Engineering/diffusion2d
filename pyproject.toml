@@ -3,10 +3,10 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "strackms-diffusion2D"
+name = "strackms_diffusion2D"
 description = "Package to solve the 2d-diffusion equation"
 readme = "README.md"
-version = "0.0.2"
+version = "0.0.3"
 requires-python = ">=3.6"
 keywords = ["diffusion", "solver"]
 license = {text = "Creative Commons Attribution 4.0 International"}
