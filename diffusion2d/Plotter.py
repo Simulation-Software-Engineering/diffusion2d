@@ -4,7 +4,6 @@ import math
 
 
 class Plotter:
-
     def __init__(self,
                  T_cold: float,
                  T_hot: float,

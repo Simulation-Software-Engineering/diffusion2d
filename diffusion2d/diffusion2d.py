@@ -6,7 +6,7 @@ Example acquired from https://scipython.com/book/chapter-7-matplotlib/examples/t
 
 import numpy as np
 import matplotlib.pyplot as plt
-from . import Plotter
+from diffusion2d import Plotter
 
 # plate size, mm
 w = h = 10.
