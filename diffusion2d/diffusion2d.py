@@ -17,6 +17,7 @@ def do_timestep(u_nm1, u, D, dt, dx2, dy2):
     u_nm1 = u.copy()
     return u_nm1, u
 
+
 def solve(dx=0.1, dy=0.1, D=4.):
     '''Solving the two-dimensional diffusion equation and plot the results.
 
