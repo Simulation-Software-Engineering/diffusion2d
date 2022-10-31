@@ -8,13 +8,14 @@ This code solves the diffusion equation in 2D over a square domain which is at a
 
 ### Using pip3 to install from PyPI
 
-pip install --user --index-url https://test.pypi.org/simple/ chrispfae-diffusion2D
+*--extra-index is required* to install matplotlib and numpy. Otherwise an error occurs upon installing the dependencies. 
+pip install --user --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple chrispfae-diffusion2D
 
 ### Required dependencies
 
-[numpy](https://numpy.org/) >= 1.23.4
+[numpy](https://numpy.org/)
 
-[matplotlib](https://matplotlib.org/) >= 3.6.1, which requires a Python version < 3.11 at the moment
+[matplotlib](https://matplotlib.org/)
 
 ## Running this package
 

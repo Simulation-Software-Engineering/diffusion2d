@@ -6,7 +6,8 @@ Example acquired from https://scipython.com/book/chapter-7-matplotlib/examples/t
 
 import numpy as np
 import matplotlib.pyplot as plt
-from outputs.output import create_plot, output_plots
+from diffusion2d.outputs.output import create_plot, output_plots
+import os
 
 def do_timestep(u_nm1, u, D, dt, dx2, dy2):
     # Propagate with forward-difference in time, central-difference in space
@@ -74,4 +75,6 @@ def solve(dx=0.1, dy=0.1, D=4.):
             im = create_plot(fig, fig_counter, u, T_cold, T_hot, n, dt, colormap)
 
     # Plot output figures
-    output_plots(fig, im, 'figures/diffusion_refactor_2.png')
+    if not os.path.exists('./figures'):
+        os.makedirs('./figures')
+    output_plots(fig, im, './figures/diffusion_refactor_2.png')
