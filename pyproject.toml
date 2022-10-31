@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sumanth0703-diffusion2d"
+description = "This package solves the diffusion equation in 2d"
+readme = "README.md"
+url="https://github.com/sumanth0703"
+version = "0.0.1"
+requires-python = ">=3.6"
+keywords = ["setuptools"]
+license = LICENSE.txt
+dependencies = ["requests", 'importlib-metadata']
