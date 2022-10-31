@@ -8,6 +8,8 @@ This code solves the diffusion equation in 2D over a square domain which is at a
 
 ### Using pip3 to install from PyPI
 
+pip install --user --index-url https://test.pypi.org/simple/ chrispfae-diffusion2D
+
 ### Required dependencies
 
 [numpy](https://numpy.org/) >= 1.23.4
@@ -16,4 +18,8 @@ This code solves the diffusion equation in 2D over a square domain which is at a
 
 ## Running this package
 
+Import the package via `import diffusion2d` and solve the 2D diffusion equation with diffusion2d.solve() with default values or specify dx, dy, and D.
+
 ## Citing
+
+A comprehensive guide on the theory of the code can be found [here](https://scipython.com/book/chapter-7-matplotlib/examples/the-two-dimensional-diffusion-equation/). Caution: lots of math.
