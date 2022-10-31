@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lacerdar_diffusion2d"
+description = "Diffusion equation solver for a 2D plate"
+readme = "README.md"
+version = "0.0.1"
+requires-python = ">=3.6"
+keywords = ["diffusion", "solver", "heat transfer"]
+license = {text = "CC-BY-4.0"}
+dependencies = [
+	"numpy", 
+	"matplotlib"
+]
+
+[project.urls]
+homepage = "https://github.com/iatzak/diffusion2d"
