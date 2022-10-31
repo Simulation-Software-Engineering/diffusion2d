@@ -1,6 +1,6 @@
 lacerdar_diffusion2d/__pycache__/
-dist/
-*.egg-info
+# dist/
+# *.egg-info
 
 # Images
 *.png
