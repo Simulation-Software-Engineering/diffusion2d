@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: lingemkm-diffusion2D
-Version: 0.0.2
+Version: 0.0.3
 Summary: This code solves the diffusion equation in 2D over a square domain using the Finite Difference Method.
 License: Creative Commons Attribution 4.0 International Public License
 Keywords: Finite Difference Method,diffusion equation in 2D,solving

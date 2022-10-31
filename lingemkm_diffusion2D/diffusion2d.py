@@ -74,6 +74,3 @@ def do_timestep(u_nm1, u, D, dt, dx2, dy2):
 
     u_nm1 = u.copy()
     return u_nm1, u
-
-
-solve()
