@@ -1,3 +1,13 @@
+Metadata-Version: 2.1
+Name: lacerdar-diffusion2d
+Version: 0.0.1
+Summary: Diffusion equation solver for a 2D plate
+License: CC-BY-4.0
+Project-URL: homepage, https://github.com/iatzak/diffusion2d
+Keywords: diffusion,solver,heat transfer
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
 # Diffusion2D-Python-Package
 
 ## Project description
