@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: sumanth0703-diffusion2d
+Version: 0.1.1
+Summary: This package solves the diffusion equation in 2d
+Home-page: https://github.com/sumanth0703
+Author: <sumanth0703>
+License: LICENSE.txt
+License-File: LICENSE
