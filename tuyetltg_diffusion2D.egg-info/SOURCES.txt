@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tuyetltg_diffusion2D/__init__.py
+tuyetltg_diffusion2D/diffusion2d.py
+tuyetltg_diffusion2D/output.py
+tuyetltg_diffusion2D.egg-info/PKG-INFO
+tuyetltg_diffusion2D.egg-info/SOURCES.txt
+tuyetltg_diffusion2D.egg-info/dependency_links.txt
+tuyetltg_diffusion2D.egg-info/requires.txt
+tuyetltg_diffusion2D.egg-info/top_level.txt
