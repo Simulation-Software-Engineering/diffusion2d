@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "weilinms-diffusion2d"
+description = "A package to calculate and print diffusion in 2d."
+readme = "README.md"
+version = "0.0.2"
+requires-python = ">=3.6"
+keywords = ["diffusion", "2d"]
+license = {text = "Attribution 4.0 International"}
+dependencies = ["numpy", "matplotlib"]
+classifiers=[
+    "Programming Language :: Python :: 3"
+]
