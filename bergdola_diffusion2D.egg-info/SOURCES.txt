@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+bergdola_diffusion2D.egg-info/PKG-INFO
+bergdola_diffusion2D.egg-info/SOURCES.txt
+bergdola_diffusion2D.egg-info/dependency_links.txt
+bergdola_diffusion2D.egg-info/requires.txt
+bergdola_diffusion2D.egg-info/top_level.txt
