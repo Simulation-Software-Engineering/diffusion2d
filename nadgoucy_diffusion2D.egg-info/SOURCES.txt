@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nadgoucy_diffusion2D/__init__.py
+nadgoucy_diffusion2D/diffusion2d.py
+nadgoucy_diffusion2D/output.py
+nadgoucy_diffusion2D.egg-info/PKG-INFO
+nadgoucy_diffusion2D.egg-info/SOURCES.txt
+nadgoucy_diffusion2D.egg-info/dependency_links.txt
+nadgoucy_diffusion2D.egg-info/requires.txt
+nadgoucy_diffusion2D.egg-info/top_level.txt
