@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "bergdola-diffusion2D"
+name = "bergdola_diffusion2D"
 description = "Solving the two-dimensional diffusion equation"
 readme = "README.md"
 version = "0.0.1"
