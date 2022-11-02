@@ -1,3 +1,15 @@
+Metadata-Version: 2.1
+Name: MarkAshraf96-diff-2d
+Version: 0.0.2
+Summary: This code solves the diffusion equation using the Finite Difference Method.
+Home-page: https://github.com/Simulation-Software-Engineering/diffusion2d
+Author: Mark Youssef
+License: BSD License
+Keywords: Diffusion,HEAT
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # Diffusion2D-Python-Package
 
 ## Instructions for students
