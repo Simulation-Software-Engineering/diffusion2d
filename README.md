@@ -14,7 +14,7 @@ This code solves the diffusion equation in 2D over a square domain which is at a
 ### Using pip3 to install from PyPI
 This package can be installed from PyPI using
 
-  pip3 install --index-url https://test.pypi.org/simple/ kurtyisn_diffusion2D==0.0.1
+  pip3 install --index-url https://test.pypi.org/simple/ kurtyisn_diffusion2D==0.0.0.1
 
 
 ### Required dependencies
