@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/__init__.py
+src/azzamal_diffusion2D.egg-info/PKG-INFO
+src/azzamal_diffusion2D.egg-info/SOURCES.txt
+src/azzamal_diffusion2D.egg-info/dependency_links.txt
+src/azzamal_diffusion2D.egg-info/requires.txt
+src/azzamal_diffusion2D.egg-info/top_level.txt
+src/plots/__init__.py
+src/plots/output.py
+src/solver/__init__.py
+src/solver/diffusion2d.py
