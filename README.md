@@ -19,10 +19,15 @@ The package is available on TestPyPI.
 ### Using pip3 to install from PyPI
 Run the following command in a shell (e.g. bash):
 ```bash
-pip install -i https://test.pypi.org/simple/ weinhovt-diffusion2D==<version>
+pip3 install --user --index-url https://test.pypi.org/simple/ weinhovt-diffusion2D
 ```
+Use at least version 0.0.7 the other version can not be imported due to a naming conflict.
 ### Required dependencies
 This package requires matplotlib and numpy to function.
+The package matplotlib has to be installed manually via pip from PyPI since it is not maintained on Test PyPI.
+````bash
+pip install matplotlib
+````
 ## Running this package
 For running the package import it in a python script or python console
 and run the solve function as shown:
@@ -31,6 +36,9 @@ from weinhovt_diffusion2D import diffusion2d
 
 diffusion2d.solve()
 ```
+Even though the package is named **weinhovt-diffusion2D** it hast to be imported 
+under the name **weinhovt_diffusion2D** since the "-" conflicts with the python syntax when trying to
+import the package.
 ## Citing
 The code used for the diffusion solver and plotting the simulation steps was acquired from:
 [https://scipython.com/book/chapter-7-matplotlib/examples/the-two-dimensional-diffusion-equation/](https://scipython.com/book/chapter-7-matplotlib/examples/the-two-dimensional-diffusion-equation/)
