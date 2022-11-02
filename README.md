@@ -18,7 +18,7 @@ The code used in this exercise is based on [Chapter 7 of the book "Learning Scie
 It is recommended to install diffusion2d via
 
 ```bash
-pip3 install --user diffusion2d
+pip3 install --user --extra-index-url https://test.pypi.org/simple/ weilinms-diffusion2d
 ```
 
 This should work out of the box, if all dependencies are installed correctly.
