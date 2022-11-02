@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "MarkAshraf96_diff_2d"
+description = "This code solves the diffusion equation using the Finite Difference Method."
+readme = "README.md"
+version = "0.0.2"
+requires-python = ">=3.6"
+keywords = ["Diffusion", "HEAT"]
+license = {text = "BSD License"}
+dependencies = ["numpy"]
