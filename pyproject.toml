@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diffusion2d_cevikma"
+description = "Diffusion2D solves the diffusion equation between two surfaces by using the Finite Difference Method"
+readme = "README.md"
+version = "0.0.1"
+requires-python = ">=3.6"
+keywords = ["Diffusion", "Finite Difference Method"]
+license = {file = "LICENSE"}
+dependencies = ["numpy", "matplotlib"]
