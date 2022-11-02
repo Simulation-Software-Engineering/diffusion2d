@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+diffusion2d/diffusion2d.py
+diffusion2d/output.py
+weinhovt_diffusion2D.egg-info/PKG-INFO
+weinhovt_diffusion2D.egg-info/SOURCES.txt
+weinhovt_diffusion2D.egg-info/dependency_links.txt
+weinhovt_diffusion2D.egg-info/requires.txt
+weinhovt_diffusion2D.egg-info/top_level.txt

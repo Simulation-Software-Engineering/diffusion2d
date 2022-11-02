@@ -1,3 +1,15 @@
+Metadata-Version: 2.1
+Name: weinhovt-diffusion2D
+Version: 0.0.1
+Summary: Small solver for 2d diffusion.
+Author-email: Vincent Weinhold <velotrax@t-online.de>
+License: CC-BY-4.0 License
+Project-URL: github, https://github.com/Simulation-Software-Engineering/diffusion2d.git
+Keywords: diffusion,diff2d,diffusion2d,weinhovt
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # Diffusion2D-Python-Package
 
 ## Instructions for students
