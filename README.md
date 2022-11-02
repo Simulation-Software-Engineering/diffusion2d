@@ -12,19 +12,21 @@ This code solves the diffusion equation in 2D over a square domain which is at a
 
 ## Installing the package
 
-To install the package for the tarball run the following command in the terminal:
-
-```sh
-python3 -m build
-pip3 install dist/Wagnerln-diffusion2d-0.0.1.tar.gz
-```
-
 ### Using pip3 to install from PyPI
 
 To install the package from PyPI, run the following command in the terminal:
 
 ```sh
 pip3 install --user --index-url https://test.pypi.org/simple/ Wagnerln-diffusion2d
+```
+
+### Install from source
+
+To install the package from source run:
+
+```sh
+python3 -m build
+pip3 install dist/Wagnerln-diffusion2d-0.0.1.1.tar.gz
 ```
 
 ### Required dependencies
