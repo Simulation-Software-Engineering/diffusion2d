@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+authors = [{name="Vincent Weinhold",email= "velotrax@t-online.de"}]
+name = "weinhovt-diffusion2D"
+description = "Small solver for 2d diffusion."
+readme = "README.md"
+version = "0.0.7"
+requires-python = ">=3.9"
+license = {text = "CC-BY-4.0 License"}
+dependencies = ["matplotlib>=3.5.2", "numpy>=1.23.3"]
+keywords = ["diffusion", "diff2d", "diffusion2d", "weinhovt"]
+urls = {github="https://github.com/Simulation-Software-Engineering/diffusion2d.git"}
