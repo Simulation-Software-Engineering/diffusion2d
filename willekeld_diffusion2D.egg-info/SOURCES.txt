@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+willekeld_diffusion2D.egg-info/PKG-INFO
+willekeld_diffusion2D.egg-info/SOURCES.txt
+willekeld_diffusion2D.egg-info/dependency_links.txt
+willekeld_diffusion2D.egg-info/top_level.txt
+willekeld_diffusion2D/src/__init__ .py
+willekeld_diffusion2D/src/diffusion2d.py
+willekeld_diffusion2D/src/output.py
