@@ -8,7 +8,7 @@ import numpy as np
 from .Plotter import Plotter
 
 
-def solve(D: int = 4, dx: int = 0.1, dy: int = 0.1):
+def solve(D: float = 4, dx: float = 0.1, dy: float = 0.1):
     '''
     Solves the 2D diffusion equation for a square plate with a circular hole
 
