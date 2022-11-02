@@ -5,7 +5,7 @@ Example acquired from https://scipython.com/book/chapter-7-matplotlib/examples/t
 """
 
 import numpy as np
-from diffusion2d.Plotter import Plotter
+from .Plotter import Plotter
 
 
 def solve(D: int = 4, dx: int = 0.1, dy: int = 0.1):
