@@ -1,4 +1,6 @@
-from . import diffusion2d
+from .diffusion2d import solve
 from .Plotter import Plotter
 
-__all__ = ['diffusion2d', 'Plotter']
+VERSION = '0.0.1'
+
+__all__ = ['solve', 'Plotter', 'VERSION']

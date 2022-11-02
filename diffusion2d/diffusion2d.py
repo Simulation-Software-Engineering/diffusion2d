@@ -5,69 +5,71 @@ Example acquired from https://scipython.com/book/chapter-7-matplotlib/examples/t
 """
 
 import numpy as np
-import matplotlib.pyplot as plt
 from diffusion2d.Plotter import Plotter
 
-# plate size, mm
-w = h = 10.
-# intervals in x-, y- directions, mm
-dx = dy = 0.1
-# Thermal diffusivity of steel, mm^2/s
-D = 4.
 
-# Initial cold temperature of square domain
-T_cold = 300
+def solve(D: int = 4, dx: int = 0.1, dy: int = 0.1):
+    '''
+    Solves the 2D diffusion equation for a square plate with a circular hole
 
-# Initial hot temperature of circular disc at the center
-T_hot = 700
+    :param D: Thermal diffusivity
+    :param dx: interval in x-direction
+    :param dy: interval in y-direction
+    '''
 
-# Number of discrete mesh points in X and Y directions
-nx, ny = int(w / dx), int(h / dy)
+    # plate size, mm
+    w = h = 10.
 
-# Computing a stable time step
-dx2, dy2 = dx * dx, dy * dy
-dt = dx2 * dy2 / (2 * D * (dx2 + dy2))
+    # Initial cold temperature of square domain
+    T_cold = 300
 
-print("dt = {}".format(dt))
+    # Initial hot temperature of circular disc at the center
+    T_hot = 700
 
-u0 = T_cold * np.ones((nx, ny))
-u = u0.copy()
+    # Number of discrete mesh points in X and Y directions
+    nx, ny = int(w / dx), int(h / dy)
 
-# Initial conditions - circle of radius r centred at (cx,cy) (mm)
-r, cx, cy = 2, 5, 5
-r2 = r ** 2
-for i in range(nx):
-    for j in range(ny):
-        p2 = (i * dx - cx) ** 2 + (j * dy - cy) ** 2
-        if p2 < r2:
-            u0[i, j] = T_hot
+    # Computing a stable time step
+    dx2, dy2 = dx * dx, dy * dy
+    dt = dx2 * dy2 / (2 * D * (dx2 + dy2))
 
+    print("dt = {}".format(dt))
 
-def do_timestep(u_nm1, u, D, dt, dx2, dy2):
-    # Propagate with forward-difference in time, central-difference in space
-    u[1:-1, 1:-1] = u_nm1[1:-1, 1:-1] + D * dt * (
-        (u_nm1[2:, 1:-1] - 2 * u_nm1[1:-1, 1:-1] + u_nm1[:-2, 1:-1]) / dx2
-        + (u_nm1[1:-1, 2:] - 2 * u_nm1[1:-1, 1:-1] + u_nm1[1:-1, :-2]) / dy2)
+    u0 = T_cold * np.ones((nx, ny))
+    u = u0.copy()
 
-    u_nm1 = u.copy()
-    return u_nm1, u
+    # Initial conditions - circle of radius r centred at (cx,cy) (mm)
+    r, cx, cy = 2, 5, 5
+    r2 = r ** 2
+    for i in range(nx):
+        for j in range(ny):
+            p2 = (i * dx - cx) ** 2 + (j * dy - cy) ** 2
+            if p2 < r2:
+                u0[i, j] = T_hot
 
+    def do_timestep(u_nm1, u, D, dt, dx2, dy2):
+        # Propagate with forward-difference in time, central-difference in space
+        u[1:-1, 1:-1] = u_nm1[1:-1, 1:-1] + D * dt * (
+            (u_nm1[2:, 1:-1] - 2 * u_nm1[1:-1, 1:-1] + u_nm1[:-2, 1:-1]) / dx2
+            + (u_nm1[1:-1, 2:] - 2 * u_nm1[1:-1, 1:-1] + u_nm1[1:-1, :-2]) / dy2)
 
-# Number of timesteps
-nsteps = 101
+        u_nm1 = u.copy()
+        return u_nm1, u
 
-# Output 4 figures at these timesteps
-n_output = [0, 10, 50, 100]
-fig = plt.figure()
-plotter = Plotter(T_cold, T_hot, len(n_output))
+    # Number of timesteps
+    nsteps = 101
 
-# Time loop
-for n in range(nsteps):
-    u0, u = do_timestep(u0, u, D, dt, dx2, dy2)
+    # Output 4 figures at these timesteps
+    n_output = [0, 10, 50, 100]
+    plotter = Plotter(T_cold, T_hot, len(n_output))
 
-    # Create figure
-    if n in n_output:
-        plotter.create_plot(data=u.copy(), step=n, delta_time=dt)
+    # Time loop
+    for n in range(nsteps):
+        u0, u = do_timestep(u0, u, D, dt, dx2, dy2)
 
-# Plot output figures
-plotter.output_plots()
+        # Create figure
+        if n in n_output:
+            plotter.create_plot(data=u.copy(), step=n, delta_time=dt)
+
+    # Plot output figures
+    plotter.output_plots()

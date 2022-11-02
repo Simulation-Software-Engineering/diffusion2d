@@ -40,4 +40,4 @@ class Plotter:
         cbar_ax = self._fig.add_axes([0.9, 0.15, 0.03, 0.7])
         cbar_ax.set_xlabel('$T$ / K', labelpad=20)
         self._fig.colorbar(self._latest_axis_img, cax=cbar_ax)
-        plt.savefig("out.png")
+        plt.show()
