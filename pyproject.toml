@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "proelstl-diffusion2D"
+description = "Exercise Package for diffusion2d calculation and display."
+readme = "README.md"
+version = "0.0.1"
+requires-python = ">=3.6"
+keywords = ["diffusion", "2d","exercise"]
+license = {text = "BSD License"}
+dependencies = []
