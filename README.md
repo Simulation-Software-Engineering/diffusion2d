@@ -1,19 +1,26 @@
-# Diffusion2D-Python-Package
+# Diffusion2D Python Package
+## Project Description
+Diffusion2D code solves the diffusion equation in 2D over a square domain which is at a certain temperature and a circular disc at the center which is at a higher temperature. 
 
-## Instructions for students
+This package code solves the diffusion equation using the Finite Difference Method the simplest approach to applying the partial difference equation.
 
-Please follow the instructions in [pypi_exercise.md](https://github.com/Simulation-Software-Engineering/Lecture-Material/blob/main/03_building_and_packaging/pypi_exercise.md).
+The code produces four plots at various time-points.
+The diffusion process can be clearly observed in these plots.
 
-The code used in this exercise is based on [Chapter 7 of the book "Learning Scientific Programming with Python"](https://scipython.com/book/chapter-7-matplotlib/examples/the-two-dimensional-diffusion-equation/).
-
-## Project description
+Remark: The thermal diffusivity and physical parameters of the system can be changed by the user by passing arguments to solver function.
 
 ## Installing the package
+### Using pip to install from TestPyPI
+To install the package copy and run below code into terminal at your workspace.<br />
+pip install -i https://test.pypi.org/simple/ diffusion2d-cevikma
 
-### Using pip3 to install from PyPI
-
-### Required dependencies
+### Required Dependencies
+In order to package to fully works; numpy and matplotlib must be installed onto the system.<br />
+To install these packages in case needed, run below codes in the workspace environment:<br />
+pip install numpy<br />
+pip install matplotlib
 
 ## Running this package
-
-## Citing
+Once the package is downloaded. Write the following code into the source file wherever the diffusion equation needed:<br />
+from cevikma_diffusion2d import diffusion2d<br />
+diffusion2d.solve()
