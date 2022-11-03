@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gallyavm2-diffusion2d"
+version = "0.0.5"
+authors = [
+  { name="Darth-Veidim", email="vgalliamov@gmail.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "BSD License"}
+dependencies = []
