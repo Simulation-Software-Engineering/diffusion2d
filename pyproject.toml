@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "marquaml-diffusion2D"
+description = "2D diffusion equation solver"
+readme = "README.md"
+version = "0.0.2"
+requires-python = ">=3.6"
+keywords = ["solver", "diffusion"]
+license = {text = "Creative Commons — Attribution 4.0 International"}
+dependencies = ["numpy", "matplotlib"]
+
+[project.scripts]
+diffusion2d-solve = "marquaml_diffusion2D:solve"
