@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aroravi_diffusion2D"
+description = "This code solves the diffusion equation in 2D over a square domain using the Finite Difference Method."
+readme = "README.md"
+version = "0.0.1"
+requires-python = ">=3.6"
+keywords = ["Finite Difference Method", "diffusion equation in 2D", "solving"]
+license = {text = "Creative Commons Attribution 4.0 International Public License"}
+dependencies = ["numpy", "matplotlib"]
+classifiers = [
+    "Programming Language :: Python :: 3"
+]
+
+[project-url]
+repository = "https://github.com/Simulation-Software-Engineering/diffusion2d"
