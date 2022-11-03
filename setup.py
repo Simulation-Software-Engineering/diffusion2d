@@ -7,8 +7,8 @@ setup(
     author="<Sena Tarpan>",
     description="",
     url="https://github.com/senatirpan/diffusion2d",
-    package_dir={"": "/Users/SenaTirpan/Desktop/repos/diffusion2d-main/"},
-    packages=setuptools.find_packages(where="/Users/SenaTirpan/Desktop/repos/diffusion2d-main/"),
+    package_dir={"": "/Users/SenaTirpan/Desktop/repos/diffusion2d/"},
+    packages=setuptools.find_packages(where="/Users/SenaTirpan/Desktop/repos/diffusion2d/"),
     python_requires=">=3.6",
     install_requires=["numpy==1.19.5","matplotlib==3.3.4"],
 )
