@@ -1,3 +1,13 @@
+Metadata-Version: 2.1
+Name: gallyavm2-diffusion2d
+Version: 0.0.5
+Summary: A small example package
+Author-email: Darth-Veidim <vgalliamov@gmail.com>
+License: BSD License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # Diffusion2Dvadim-Python-Package
 
 ## Code description
