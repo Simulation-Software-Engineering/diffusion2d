@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+aroravi_diffusion2D/__init__.py
+aroravi_diffusion2D/diffusion2d.py
+aroravi_diffusion2D/output.py
+aroravi_diffusion2D.egg-info/PKG-INFO
+aroravi_diffusion2D.egg-info/SOURCES.txt
+aroravi_diffusion2D.egg-info/dependency_links.txt
+aroravi_diffusion2D.egg-info/requires.txt
+aroravi_diffusion2D.egg-info/top_level.txt
