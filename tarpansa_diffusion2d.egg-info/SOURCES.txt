@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+/Users/SenaTirpan/Desktop/repos/diffusion2d-main/diffusion2d/__init__.py
+/Users/SenaTirpan/Desktop/repos/diffusion2d-main/diffusion2d/diffusion2d.py
+/Users/SenaTirpan/Desktop/repos/diffusion2d-main/diffusion2d/output.py
+/Users/SenaTirpan/Desktop/repos/diffusion2d-main/tarpansa_diffusion2d.egg-info/PKG-INFO
+/Users/SenaTirpan/Desktop/repos/diffusion2d-main/tarpansa_diffusion2d.egg-info/SOURCES.txt
+/Users/SenaTirpan/Desktop/repos/diffusion2d-main/tarpansa_diffusion2d.egg-info/dependency_links.txt
+/Users/SenaTirpan/Desktop/repos/diffusion2d-main/tarpansa_diffusion2d.egg-info/requires.txt
+/Users/SenaTirpan/Desktop/repos/diffusion2d-main/tarpansa_diffusion2d.egg-info/top_level.txt
