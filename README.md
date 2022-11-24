@@ -22,5 +22,5 @@ pip install matplotlib
 
 ## Running this package
 Once the package is downloaded. Write the following code into the source file wherever the diffusion equation needed:<br />
-from cevikma_diffusion2d import diffusion2d<br />
+from diffusion2d_cevikma import diffusion2d<br />
 diffusion2d.solve()
