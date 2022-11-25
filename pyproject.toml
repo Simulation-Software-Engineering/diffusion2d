@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "imhoffnsDiffusions2d"
+name = "diffusions2d-imhoffns"
 description = "solves the diffusion equation in 2D over a square domain"
 readme = "README.md"
 version = "0.0.1"
