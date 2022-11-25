@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "herbjs-diffusion2D"
+description = "Solving the two-dimensional diffusion equation"
+readme = "README.md"
+version = "0.1"
+maintainers = [
+    {name = "Julius Herb", email="st160887@stud.uni-stuttgart.de"}
+]
+requires-python = ">=3.6"
+keywords = ["diffusion", "solver", "discretization"]
+license = {text = "Creative Commons Attribution 4.0 International"}
+dependencies = [
+    'numpy',
+    #'matplotlib' #(is not available on test.pypi.org)
+]
+
+[project.urls]
+repository = "https://github.com/Simulation-Software-Engineering/diffusion2d"
