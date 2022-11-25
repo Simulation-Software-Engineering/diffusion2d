@@ -15,7 +15,7 @@ This code solves the diffusion equation in 2D over a square domain which is at a
 ### Using pip3 to install from PyPI
 
 ```python
-pip install -i https://test.pypi.org/simple/imhoffns-diffusions2d==0.0.2
+pip install -i https://test.pypi.org/simple/ imhoffnsDiffusions2d
 ```
 
 ### Required dependencies
@@ -30,7 +30,7 @@ pip install -i https://test.pypi.org/simple/imhoffns-diffusions2d==0.0.2
 ## Running this package
 
 ```python
-from imhoffns-diffusion2d import diffusion2d
+from imhoffnsDiffusion2d import diffusion2d
 
 diffusion2d.solve()
 ```
