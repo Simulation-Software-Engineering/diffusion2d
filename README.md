@@ -21,6 +21,7 @@ matplotlib
 python_version>3.6  
 
 ## Running this package
+```bash
 from kujoen_diffusion2d import diffusion2d.
 
 ## Citing
