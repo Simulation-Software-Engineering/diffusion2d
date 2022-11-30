@@ -12,8 +12,8 @@ This project was made for the SSE cours and is Kujoen's fork of DIFFUSION2D, the
 ## Installing the package
 python -m build and you are done.
 
-### Using pip3 to install from PyPI
-pip install kujoen-diffusion2d
+### Using pip3 to install from TestPyPI
+pip install -i https://test.pypi.org/simple/ kujoen-diffusion2d
 
 ### Required dependencies
 numpy  
