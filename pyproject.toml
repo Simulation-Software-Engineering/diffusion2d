@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gufg_diffusion2d"
+version = "0.0.3"
+description = "2D diffusion demo packaged for TestPyPI"
+readme = "README.md"
+requires-python = ">=3.6"
+authors = [{ name = "gufarui" }]
+dependencies = ["numpy", "matplotlib"]
+
+[project.urls]
+Repository = "https://github.com/gufarui/diffusion2d"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["diffusion2d*"]
