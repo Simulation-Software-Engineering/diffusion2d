@@ -1,0 +1,22 @@
+[project]
+name = "solymasn_diffusion2d"
+version = "0.0.2"
+description = "A Python package to solve the two-dimensional diffusion equation and visualize the results."
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "MIT"}
+authors = [{name = "Shehabeldin Solyman", email = "st196462@stud.uni-stuttgart.de"}]
+dependencies = [
+    "numpy",
+    "matplotlib"
+]
+keywords = ["diffusion", "heat equation", "simulation", "numerical methods", "Python"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
