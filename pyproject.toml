@@ -3,7 +3,7 @@ name = "feegeea_diffusion2d"
 authors = [
     {name = "feegeea", email = " 85125437+feegeer@users.noreply.github.com"},
 ]
-version = "0.0.1"
+version = "0.0.2"
 description="A python library for solving the diffusion equation with FDM."
 requires-python = ">=3.12"
 keywords=["diffusion equation", "fdm", "solver"]
