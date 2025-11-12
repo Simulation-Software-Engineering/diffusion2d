@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+version = "0.0.3"
+name="kimmerfx_diffusion2d"
+dependencies = [
+  "numpy",
+  "matplotlib"
+]
+requires-python = ">= 3.8"
+description = "Solves the diffusion equation."
+readme = "README.md"
+license-files = ["LICENSE"]
+keywords = ["diffusion", "2D", "solver"]
+
+classifiers = [
+  "Development Status :: 3 - Alpha",
+]
+
+authors = [
+  {name = "Ishaan Desai"},
+  {name = "Felix Kimmerle"},
+]
+
+[project.scripts]
+diffusion-solve = "kimmerfx_diffusion2d.diffusion2d:solve"
