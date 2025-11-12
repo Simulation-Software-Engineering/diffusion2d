@@ -1,0 +1,30 @@
+[project]
+name = "feegeea_diffusion2d"
+authors = [
+    {name = "feegeea", email = " 85125437+feegeer@users.noreply.github.com"},
+]
+version = "0.0.1"
+description="A python library for solving the diffusion equation with FDM."
+requires-python = ">=3.12"
+keywords=["diffusion equation", "fdm", "solver"]
+readme = "README.md"
+license-files = ["LICENSE"]
+classifiers=[
+"Development Status :: 3 - Alpha",
+"Programming Language :: Python :: 3 :: Only",
+"Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "numpy>=2.3.0",
+    "matplotlib>=3.10.0"
+]
+
+[project.urls]
+Repository = "https://github.com/feegeer/diffusion2d"
+
+[tool.setuptools]
+packages=["pydiffusion"]
+
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
