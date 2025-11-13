@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oezsoyik_diffusion2d"
+authors = [
+    {name = "Isik Ozsoy", email = "st196427@stud.uni-stuttgart.de"},
+]
+requires-python = ">=3.0"
+dynamic = ["version"]
+dependencies = [
+    "numpy", "matplotlib"
+]
+
+[project.urls]
+Repository = "https://github.com/Simulation-Software-Engineering/diffusion2d.git"
+
+[tool.setuptools.packages.find]
+include = ["oezsoyik_diffusion2d"]
