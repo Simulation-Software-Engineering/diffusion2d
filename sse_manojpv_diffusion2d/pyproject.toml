@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "manojpv_diffusion2d"
+version = "0.0.2"
+description = "A 2D diffusion equation solver with plotting, ready for packaging."
+authors = [
+    { name = "manojpv" }
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "numpy>=1.21",
+    "matplotlib>=3.4"
+]
+
+[project.urls]
+Homepage = "https://github.com/bossbeagle1509/diffusion2d"
+Repository = "https://github.com/bossbeagle1509/diffusion2d"
