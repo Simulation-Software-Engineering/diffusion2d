@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "haasro_diffusion2d"
+version = "0.0.2"
+dependencies = [
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.4",
+]
+requires-python = ">=3.12"
+authors = [
+    {name = "Rico Haas", email = "git.rico-haas@gmx.de"},
+]
+maintainers = [
+    {name = "Rico Haas", email = "git.rico-haas@gmx.de"},
+]
+description = "Solves the diffusion equation in 2D"
+readme = "README.md"
+license-files = ["LICENSE"]
+keywords = ["exercise-submission", "diffusion"]
+classifiers=[
+    "Development Status :: 2 - Pre-Alpha",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.urls]
+    Repository = "https://github.com/Simulation-Software-Engineering/diffusion2D"
+
