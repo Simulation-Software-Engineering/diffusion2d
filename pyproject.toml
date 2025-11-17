@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "singhaa_diffusion2d"
+version = "0.0.1"
+authors = [
+  { name="Adrija Singh", email="adrijasingh13@gmail.com" },
+]
+description = "A package for solving the 2D diffusion equation"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "matplotlib"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Simulation-Software-Engineering/diffusion2d"
