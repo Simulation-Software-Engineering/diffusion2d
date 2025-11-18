@@ -1,0 +1,30 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.build/
+.dist/
+dist/
+build/
+
+# Virtualenvs
+venv/
+.env/
+.envrc
+.venv/
+
+# Packaging / wheel
+*.whl
+*.tar.gz
+
+# IDEs / editors
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Tests / caches
+.pytest_cache/
+
+# Credentials/config
+.pypirc
