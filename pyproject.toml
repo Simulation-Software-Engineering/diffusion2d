@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shayo_diffusion2d"
+authors = [
+    {name = "shayo", email = "st196528@stud.uni-stuttgart.de"},
+]
+description = "A 2D diffusion equation solver."
+version = "0.0.2"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["solver", "diffusion", "2D"]
+license = "CC-BY-4.0"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+]
+
+[project.urls]
+Repository = "https://github.com/Noxaster/diffusion2d.git"
+Issues = "https://github.com/Noxaster/diffusion2d/issues"
