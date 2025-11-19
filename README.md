@@ -1,16 +1,26 @@
 # diffusion2d
+This project solves the 2D diffusion equation on a square domain. The domain starts at a uniform temperature, except for a circular region in the center that is set to a higher temperature. The simulation uses a finite-difference method to compute how heat spreads over time, and it visualizes the results in four plots.
 
 ## Instructions for students
+Please follow the steps described in [pypi_exercise.md]
+(https://github.com/Simulation-Software-Engineering/Lecture-Material/blob/main/03_building_and_packaging/pypi_exercise.md).
 
-Please follow the instructions in [pypi_exercise.md](https://github.com/Simulation-Software-Engineering/Lecture-Material/blob/main/03_building_and_packaging/pypi_exercise.md).
-
-The code used in this exercise is based on [Chapter 7 of the book "Learning Scientific Programming with Python"](https://scipython.com/book/chapter-7-matplotlib/examples/the-two-dimensional-diffusion-equation/).
+The code in this exercise is adapted from Chapter 7 of Learning Scientific Programming with Python, available online:
+(https://scipython.com/book/chapter-7-matplotlib/examples/the-two-dimensional-diffusion-equation/).
 
 ## Description
+The script numerically solves the 2D diffusion equation using finite differences. You can adjust the thermal diffusivity and the initial temperature setup. During the simulation, the script generates a figure that contains four snapshots at different times, showing how the heat diffuses across the domain.
 
 ## Installing the package
+Make sure you have:
+    Python 3.6 or higher
+    pip, build, and twine
+    NumPy and Matplotlib (install them via pip)
 
 ## Running this package
+Run the code by running 'python diffusion2d.py' and observe the output. 
+You should see four plots combined into one figure. 
 
 ## Citing
-
+Original reference: https://scipython.com/book/chapter-7-matplotlib/examples/the-two-dimensional-diffusion-equation/
+For more background on the theory, you can refer to Chapter 7 of Learning Scientific Programming with Python.

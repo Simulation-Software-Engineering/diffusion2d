@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"] # Recommended to use a modern setuptools version
+build-backend = "setuptools.build_meta"
+
+[project]
+name="rehmanal_diffusion2d"
+version = "0.0.1" # Static version as required by the exercise
+dependencies = [
+    "numpy", "matplotlib",
+]
+requires-python = ">=3.6"
+authors = [
+    { name = "Abdul_Rehman", email="st195764@stud.uni-stuttgart.de"}
+]
+maintainers = [
+    { name = "Abdul_Rehman", email="st195764@stud.uni-stuttgart.de"}
+]
+description= "A simple 2D diffusion simulation package."
+readme = "README.md"
+license={ text = "GPLv3" }
+keywords = ["diffusion", "simulation", "finite-difference"]
+classifiers=[
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Topic :: Scientific/Engineering",
+]
+
+[project.optional-dependencies]
+# Unless you need these, they are fine to keep as extra features:
+snapshot = ["h5py"]
+sklearn = ["scikit-learn"]
+
+[project.urls]
+Documentation = "https://scipython.com/book/chapter-7-matplotlib/examples/the-two-dimensional-diffusion-equation/"
+# You should also add a Homepage/Repository URL here linking to your GitLab fork!
+
+# REMOVED: [project.scripts] and [tool.setuptools-git-versioning] sections
+
+[tool.setuptools.packages]
+# This automatically finds your source code folder named 'rehmanal_diffusion2d'
+find = {}

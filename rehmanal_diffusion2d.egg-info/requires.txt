@@ -1,0 +1,8 @@
+numpy
+matplotlib
+
+[sklearn]
+scikit-learn
+
+[snapshot]
+h5py
