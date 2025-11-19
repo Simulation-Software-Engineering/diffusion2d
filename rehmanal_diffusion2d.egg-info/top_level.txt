@@ -1,3 +1,0 @@
-diffusion2d
-dist
-venv
