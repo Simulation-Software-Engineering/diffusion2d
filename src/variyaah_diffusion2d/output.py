@@ -4,6 +4,7 @@ def create_plot(fig, fig_counter, u, plt, T_cold, T_hot, n, dt):
     im = ax.imshow(u.copy(), cmap=plt.get_cmap('hot'), vmin=T_cold, vmax=T_hot)  # image for color bar axes
     ax.set_axis_off()
     ax.set_title('{:.1f} ms'.format(n * dt * 1000))
+    return im
 
 def output_plots(fig, im, plt):
     fig.subplots_adjust(right=0.85)
