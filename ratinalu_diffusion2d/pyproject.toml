@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name="ratinalu_diffusion2d"
+version = "0.0.1"
+dependencies = [
+    "pip",
+    "matplotlib",
+    "numpy",
+    "build',
+    "twine,
+]
+requires-python = ">=3.6"
+authors = [{name = "ratinalu"}]
+description="Simulator for a 2 dimensional thermal diffusion using the finite-difference method"
+readme = "README.md"
+license-files = ["LICENSE"]
+keywords=["simulation", "diffusion", "2 dimensional"]
+
+[project.urls]
+Repository="https://github.com/Simulation-Software-Engineering/diffusion2d"
