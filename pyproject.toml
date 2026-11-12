@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reichsl_diffusion2d"
+version = "0.0.1"
+authors = [
+    {name = "reichsl", email = "st171997@stud.uni-stuttgart.de"}
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+]
+requires-python = ">=3"
+description = "Solve diffusion equations over a two-dimensional square domain where the domain starts with a fixed temperature except for a circle in its center which is at a higher temperature"
+keywords = ["Diffusion", "Solver", "Finite-Difference Method"]
+readme = "README.md"
+license-files = ["LICENSE"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Repository = "https://github.com/Simulation-Software-Engineering/diffusion2d.git"
