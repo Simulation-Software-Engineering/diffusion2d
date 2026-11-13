@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kakadesm_diffusion2d"
+version = "0.0.1"
+authors = [
+    {name = "Soham Kakade", email = "st205174@stud.uni-stuttgart.de"},
+]
+description = "Diffusion equation solver with finite-difference method."
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["diffusion", "simulation"]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.urls]
+Homepage = "https://github.com/Soham-S-Kakade/diffusion2d-excercise"
