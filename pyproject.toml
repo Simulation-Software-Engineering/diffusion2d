@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "salinajl_diffusion2d"
+version = "0.0.2"
+authors = [
+    {name = "Jonatan Salinas", email = "st199010@stud.uni-stuttgart.de"},
+]
+description = "Diffusion equation solver with finite-difference method."
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["diffusion", "simulation"]
+license = "MIT"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "build",
+    "twine",
+]
+
+[project.urls]
+Repository = "https://github.com/JonaSalinas18/diffusion2d"
