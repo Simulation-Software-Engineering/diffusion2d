@@ -1,0 +1,38 @@
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "merchahm_diffusion2d"
+version = "0.0.1"
+description = "A Python package for simulating two-dimensional heat diffusion."
+readme = "README.md"
+requires-python = ">=3.7"
+license = "MIT"
+authors = [
+    {name = "Hatim Merchant"}
+]
+keywords = [
+    "diffusion",
+    "simulation",
+    "heat",
+    "physics",
+    "numerical-methods"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Physics"
+]
+dependencies = [
+    "numpy",
+    "matplotlib"
+]
+
+[project.urls]
+Homepage = "https://github.com/Simulation-Software-Engineering/diffusion2D"
+Repository = "https://github.com/Simulation-Software-Engineering/diffusion2D"
+
+[tool.setuptools]
+packages = ["diffusion2d"]
