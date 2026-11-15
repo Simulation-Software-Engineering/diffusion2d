@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vonrosmo_diffusion2d"
+version = "0.0.1"
+authors = [
+    { name="Marco von Rosenberg", email="marco@von-rosenberg.com" },
+]
+description = "This package simulates two-dimensional diffusion by solving the diffusion equation using the finite-difference method. The resolution in x- and y-direction as well as the diffusion coefficient can be specified. Results are plotted after four different time steps."
+readme = "README.md"
+requires-python = ">=3.14"
+keywords = ["diffusion", "finite-difference", "simulation", "2D"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "matplotlib"
+]
+
+[dependency-groups]
+dev = [
+    "build",
+    "twine",
+]
+
+[project.urls]
+Homepage = "https://github.com/CodingMarco/diffusion2d"
+Issues = "https://github.com/CodingMarco/diffusion2d/issues"
