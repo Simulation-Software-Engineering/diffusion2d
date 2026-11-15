@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "khaituia_diffusion2d"
+version = "0.0.1"
+authors = [
+    {name = "Illia Khaitul", email = "st196820@stud.uni-stuttgart.de"},
+]
+description = "Solves the diffusion equation on a two-dimensional square domain"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["simulation", "diffusion"]
+license = "CC-BY-4.0"
+license-files = ["LICENSE"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "numpy",
+    'matplotlib',
+]
+
+[project.urls]
+Repository = "https://github.com/illiakhaitul/diffusion2d"
+
+[tool.setuptools]
+packages = ["khaituia_diffusion2d"]
