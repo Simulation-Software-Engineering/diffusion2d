@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=77.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vashissm_diffusion2d"
+version = "0.0.1"
+authors = [
+    { name = "Shubham Vashishth" },
+]
+description = "Solves the two-dimensional diffusion equation on a square plate with a hot disc at its center"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "CC-BY-4.0"
+license-files = ["LICENSE"]
+keywords = ["diffusion", "heat equation", "finite differences", "simulation"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+]
+
+[project.urls]
+Homepage = "https://github.com/Simulation-Software-Engineering/diffusion2d"
+Repository = "https://github.com/shubhvashishth/diffusion2d"
+Issues = "https://github.com/Simulation-Software-Engineering/diffusion2d/issues"
+
+[tool.setuptools]
+packages = ["vashissm_diffusion2d"]
