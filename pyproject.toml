@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "diffusion_equation2d"
+version = "2026.0.3"
+dependencies = [
+  "numpy",
+  "matplotlib",
+]
+requires-python = ">=3.6"
+authors = [
+  {name = "Metin Arab", email = "st178931@stud.uni-stuttgart.de"},
+]
+
+description = "Solves the diffusion equation over a two-dimensional square domain."
+readme = "README.md"
+keywords = ["diffusion", "heat-equation", "finite-difference", "simulation", "scientific-computing"]
+classifiers = [
+  "Programming Language :: Python"
+]
