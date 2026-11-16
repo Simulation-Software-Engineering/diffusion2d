@@ -1,0 +1,38 @@
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aswathvn_diffusion2d"
+version = "0.0.1"
+description = "A Python package for solving the two-dimensional diffusion equation"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    {name = "aswathvn"}
+]
+keywords = [
+    "diffusion",
+    "heat",
+    "simulation",
+    "finite-difference",
+    "scientific-computing"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Physics"
+]
+dependencies = [
+    "numpy",
+    "matplotlib"
+]
+
+[project.urls]
+Repository = "https://github.com/Simulation-Software-Engineering/diffusion2d"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["aswathvn_diffusion2d*"]
