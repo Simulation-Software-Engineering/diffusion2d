@@ -43,7 +43,7 @@ Requirements:
 NumPy and Matplotlib are installed automatically when you install the package with pip.
 
 ```bash
-pip install diffusion2d
+pip install -i https://test.pypi.org/simple/ diffusion-equation2d
 ```
 
 ## Running this package
