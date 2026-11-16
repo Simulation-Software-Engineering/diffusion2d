@@ -1,16 +1,30 @@
-# diffusion2d
 
-## Instructions for students
+# aswathvn_diffusion2d
 
-Please follow the instructions in [pypi_exercise.md](https://github.com/Simulation-Software-Engineering/Lecture-Material/blob/main/03_building_and_packaging/pypi_exercise.md).
+A Python package for solving the two-dimensional diffusion equation using a finite-difference method.
 
-The code used in this exercise is based on [Chapter 7 of the book "Learning Scientific Programming with Python"](https://scipython.com/book/chapter-7-matplotlib/examples/the-two-dimensional-diffusion-equation/).
+## Installation
 
-## Description
+```bash
+pip install aswathvn_diffusion2d
+```
 
-## Installing the package
+## Usage
 
-## Running this package
+```python
+from aswathvn_diffusion2d import diffusion2d
 
-## Citing
+diffusion2d.solve()
+```
+
+You can also provide custom values for the spatial steps and thermal diffusivity:
+
+```python
+diffusion2d.solve(dx=0.1, dy=0.1, D=4.0)
+```
+
+## Dependencies
+
+- NumPy
+- Matplotlib
 
