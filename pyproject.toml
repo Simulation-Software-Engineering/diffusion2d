@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dogukangundemir_diffusion2d"
+version = "0.0.1"
+description = "A two-dimensional finite-difference heat diffusion simulation"
+readme = "README.md"
+requires-python = ">=3.6"
+license = "CC-BY-4.0"
+license-files = ["LICENSE"]
+authors = [
+    {name = "Dogukan Gundemir"}
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+]
+keywords = ["diffusion", "simulation", "finite-difference", "heat"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+
+[project.urls]
+Homepage = "https://github.com/Simulation-Software-Engineering/diffusion2d"
+Repository = "https://github.com/dogukangundemir/diffusion2d"
+Issues = "https://github.com/Simulation-Software-Engineering/diffusion2d/issues"
+
+[tool.setuptools.packages.find]
+include = ["dogukangundemir_diffusion2d*"]
