@@ -17,13 +17,14 @@ def do_timestep(u_nm1, u, D, dt, dx2, dy2):
     u_nm1 = u.copy()
     return u_nm1, u
 
-def solve():
+def solve(dx=0.1, dy=0.1, D=4):
+    """
+    :param dx: interval in x-direction, mm
+    :param dy: interval in y-direction, mm
+    :param D: thermal diffusivity, mm^2/s
+    """
     # plate size, mm
     w = h = 10.
-    # intervals in x-, y- directions, mm
-    dx = dy = 0.1
-    # Thermal diffusivity of steel, mm^2/s
-    D = 4.
 
     # Initial cold temperature of square domain
     T_cold = 300

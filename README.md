@@ -9,8 +9,8 @@ with Python"].
 
 ## Description
 
-This package simulates two-dimensional heat diffusion on a square steel plate. It starts from a cold
-plate with a hot circular region in the center and solves the diffusion equation with an explicit
+This package simulates two-dimensional heat diffusion on a square plate. It starts from a cold plate
+with a hot circular region in the center and solves the diffusion equation with an explicit
 finite-difference scheme, plotting the temperature field at several time steps.
 
 ## Installing the package
