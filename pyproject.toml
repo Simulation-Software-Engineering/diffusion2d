@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "madebytimo_diffusion2d"
+version = "0.0.1"
+authors = [
+  { name="madebyTimo", email="t.schnaible@madebytimo.de" },
+]
+description = "diffusion2d simulation software engineering exercise"
+readme = "README.md"
+requires-python = ">=3.6"
+license = "CC-BY-4.0"
+license-files = ["LICEN[CS]E*"]

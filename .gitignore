@@ -9,8 +9,10 @@ __pycache__/
 .svelte-kit/
 .temp*/
 .vscode/
+*.egg-info/
 build/
 builds/
+dist/
 data-local/
 node_modules/
 target/
